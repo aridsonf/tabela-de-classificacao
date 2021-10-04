@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de classificação</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+
+    <div class="container">
+        <label for="nomeJogador" class="page-subtitle">Nome do Jogador:</label>
+        <input type="text" id="nomeJogador" name="nomeJogador" placeholder="Digite seu nome">
+        <br>
+
+        <div>
+            <button onClick="adicionarJogador(nomeJogador.value)">Adicionar Jogador</button>
+            <button onClick="window.location.href='index.html'">Voltar</button>
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
