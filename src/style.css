@@ -14,8 +14,12 @@ body {
 
 .container {
   text-align: center;
+<<<<<<< HEAD
   padding: 20px;
   height: 100vh;
+=======
+  padding: 5px;
+>>>>>>> temp-branch
 }
 
 .page-title {

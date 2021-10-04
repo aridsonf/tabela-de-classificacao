@@ -4,7 +4,11 @@ var rafa = {
   vitorias: 0,
   empates: 0,
   derrotas: 0,
+<<<<<<< HEAD
   pontos: 0,
+=======
+  pontos: 0
+>>>>>>> temp-branch
 };
 
 var jogadores = [rafa];
@@ -69,10 +73,19 @@ function adicionarJogador(nomeJogador) {
     vitorias: 0,
     empates: 0,
     derrotas: 0,
+<<<<<<< HEAD
     pontos: 0,
+=======
+    pontos: 0
+>>>>>>> temp-branch
   };
 
   jogadores.push(newPlayer);
 
+<<<<<<< HEAD
   window.location.replace("index.html");
 }
+=======
+  exibirJogadores(jogadores);
+}
+>>>>>>> temp-branch
